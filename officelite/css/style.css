@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@600&display=swap');
+
+@font-face{
+    font-family:KumbhSans-Bold;
+    src: url(../font/KumbhSans-Bold.ttf);
+}
+@font-face{
+    font-family:KumbhSans-Regular ;
+    src: url(../font/KumbhSans-Regular.ttf);
+}
+.logo{
+    box-sizing: border-box;
+padding: 3%;
+}
+.header{
+    width: 250px;
+}
+.header.header-content{
+    font-family:'KumbhSans-Bold';
+    font-size: 56px;
+    color: #333950;
+    width:150%;
+    margin-left: 100px;
+    padding: 30px;
+}
+.tasks{
+    font-family:'KumbhSans-Bold';
+    font-size: 25px;
+    width:150%;
+    margin-left:60px;
+    padding: 30px;
+}
+
+.header-txt{
+    font-family:'KumbhSans-Regular';
+    font-size: 18px;
+    color: #6c7183;
+    margin-left:30%;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 440px;
+}
+
+.start-but{
+    background:#5175FF;
+    color:#fff;
+    text-transform: capitalize;
+    font-family: 'KumbhSans-Bold';
+    border:none;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-left:30%;
+    padding:18px;
+    width: 171px; 
+    height: 56px;
+    direction: center;
+}
+.img-logo{
+  padding-left: 800px;
+  margin-top: 0;
+}
+
+
+.chart{
+  display: flex;
+  background-color:#25293A ;
+}
+.my-plan{
+    background-color:#FFFFFF;
+   width: 350px;
+   height: 508px;
+   margin-right: 10px;
+   border-radius: 3%;
+}
+.plan{
+    font-family:'KumbhSans-Bold';
+    font-size: 20px;
+   text-align: center;
+   line-height:30px;
+   margin: 18px;
+}
+.free-plan{
+    font-family:'KumbhSans-Bold';
+    font-size: 50px;
+    text-indent: 10px;
+    text-align: center;
+    color: #333950;
+    line-height:30px;
+    margin: 18px;
+}
+.free-users{
+   font-family:'KumbhSans-Regular';
+   font-size: 16px;
+  text-align: center;
+  line-height:30px;
+  margin: 30px;
+  color: #747B95;
+}
+
+.free-basic{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #747B95;
+}
+.storage{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #747B95;
+}
+.security{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #747B95;
+}
+.btn{
+    background-color: #c9cddb;
+    border-radius: 20px;
+    color: #5175FF;
+    direction: center;
+    padding: 18px;
+    margin-left:60px;
+    border:none; 
+    width: 171px; 
+    height: 56px;
+}
+.my-pro{
+    background-color:#5175FF;
+   width: 350px;
+   height: 508px;
+   margin-right: 10px;
+   border-radius: 3%;
+
+}
+.title{
+    font-family:'KumbhSans-Bold';
+    font-size: 20px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #FFFFFF;
+}
+.price{
+    font-family:'KumbhSans-Bold';
+    font-size: 50px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #FFFFFF;
+}
+.letter{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #FFFFFF;
+
+}
+.words{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #FFFFFF;
+}
+.storage-GB{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #FFFFFF;
+}
+.control{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #FFFFFF;
+}
+.bton{
+    background-color:#FFFFFF ;
+    border-radius: 20px;
+    color: #5175FF;
+    direction: center;
+    padding: 18px;
+    margin-left:60px;
+    border:none; 
+    width: 171px; 
+    height: 56px;
+}
+.my-ultimate{
+    background-color: rgb(253, 255, 251);
+    width: 350px;
+    height: 508px;
+    margin-right: 10px;
+    border-radius: 3%;
+}
+.my-title{
+    font-family:'KumbhSans-Bold';
+    font-size: 20px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #000000;
+}
+.my-price{
+    font-family:'KumbhSans-Bold';
+    font-size: 50px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #000000;
+}
+.my-letter{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color:#747B95;
+}
+.word{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color:#747B95; 
+}
+.GB{
+    
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #747B95;
+}
+.vip{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #747B95;
+}
+.my-bton{
+    background-color: #c9cddb;
+    border-radius: 20px;
+    color: #5175FF;
+    padding: 18px;
+    margin-left: 60px;
+    border:none; 
+    width: 171px; 
+    height: 56px;
+}
